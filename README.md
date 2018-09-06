@@ -1,2 +1,29 @@
-# KHPY20180908_Python-Car-Workshop
-MicroPython智慧自走車工作坊
+# MicroPython智慧自走車工作坊
+
+[課程學習單](smart-car-workshop.ipynb)
+
+- MicroPython 基本硬體介紹
+- 自走車各部元件測試
+- 智慧自走車組裝、實作
+- 智慧IoT遙控車
+
+----
+
+## 課程大綱
+
+在課程中我們依序會學到以下的項目
+
+- MicroPython硬體介紹
+- 自走車組裝、測試: 使用程式控制led, 馬達, 超音波, 紅外線
+- 避障自走車 (超音波sensor)
+- 三向確認的自走車
+
+- 防跌落自走車
+    
+- 遙控車實作
+    
+- IoT遙控車
+
+- 走迷宮自走車
+    
+----
