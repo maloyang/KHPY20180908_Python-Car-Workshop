@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head> <title>upy webserver</title> </head>
+<center><h2>Smart Car Web Tool</h2></center>
+<h3>
+webREPL: <a href="http://micropython.org/webrepl/" target="_blank">webrepl</a>
+<br>
+Doc: <a href="https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html" target="_blank">Quick reference</a>
+</h3>
+<hr>
+
+<form>
+<b>LED (D4):</b><br>
+<button name="LED" value="ON" type="submit">ON</button><br>
+<button name="LED" value="OFF" type="submit">OFF</button><br>
+</form>
+
+<form>
+    <b>ultra sonic (D7,8):</b><br>
+    <button name="sr04" value="read" type="submit">Read</button><br>
+    distance=? cm
+</form>
+
+<form>
+    <b>CAR (D1,2,3,4):</b><br>
+    <button name="car" value="FWD" type="submit">Forward</button><br>
+    <button name="car" value="REV" type="submit">Back</button><br>
+    <button name="car" value="LEFT" type="submit">Left</button><br>
+    <button name="car" value="RIGHT" type="submit">Right</button><br>
+</form>
+
+<hr>
+GPIO Info. :<br>
+<pre>
+D0 = 16
+D1 = 5  #A-, speed
+D2 = 4  #B-, speed
+D3 = 0  #A+, dir
+D4 = 2  #B+, dir  #Led on board 
+D5 = 14 
+D6 = 12 #IR Line Tracking Sensor
+D7 = 13 #ultra sonic (Trig)
+D8 = 15 #ultra sonic (Echo) 
+</pre>
+
+</html>
